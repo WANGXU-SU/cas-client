@@ -1,0 +1,10 @@
+
+cas:
+  client-host-url: http://127.0.0.1:8082
+  server-url-prefix: http://localhost:8080/cas
+  server-login-url: http://localhost:8080/cas/login
+  validation-type: cas3
+server:
+  port: 8082
+  servlet:
+    context-path: /b
